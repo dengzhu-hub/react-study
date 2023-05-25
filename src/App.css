@@ -1,0 +1,97 @@
+/* html {
+  font-size: 62.5%;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.avatar {
+  border-radius: 50%;
+  animation: App-logo-span  infinite 20s linear ;
+}
+.name {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, #6bb29d, #28b485);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 0.2rem;
+  transition: all .2s;
+
+  
+}
+.name:hover {
+  transform: skewY(2deg) skewX(15deg)scale(1.1);
+  text-shadow: 0.5rem 1rem 2rem rgba(#000, .2);
+}
+.btn {
+  display: block;
+  margin-top: 2.4rem;
+  border: none;
+  padding: 1.2rem 1.6rem;
+  border-radius: 1.6rem;
+  color: white;
+  background-color: #28b485;
+  cursor: pointer;
+
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(to left, rgba(7, 27, 82, 2)0%, rgba(0, 128, 128, 1)100%);
+    text-align: center;
+}
+.app-title {
+  font-family: 'Bigelow Rules', cursive;
+  font-size: 7.6rem;
+  margin-top: 2.6rem;
+  margin-bottom: 2rem;
+}

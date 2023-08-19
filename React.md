@@ -547,7 +547,7 @@ componentDidMount()第三调用
   
     
 
-#### imoure function && pure function 
+#### impure function && pure function 
 
 * React 中的函数可以分为纯函数和不纯函数两种类型。
 
